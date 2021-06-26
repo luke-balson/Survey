@@ -1,0 +1,26 @@
+@import "./tokens";
+
+header {
+    color: $kz-color-white;
+    padding: $kz-spacing-sm;
+    margin-bottom: $kz-spacing-md;
+    border-bottom: $kz-border-solid-border-width $kz-border-solid-border-style $kz-color-wisteria-600;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+
+    .header-summary {
+        align-self: end;
+        text-align: right;
+
+    }
+
+    .logo {
+        background: url(./../assets/CA-logo-rev.png) no-repeat left center;
+        display: block;
+        background-size: contain;
+        width: auto;
+        height: $kz-layout-mobile-actions-drawer-height;
+    }
+}

@@ -1,0 +1,35 @@
+@import "./tokens";
+
+body {
+    margin: 0;
+    font-family: $kz-typography-data-large-font-family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $kz-color-wisteria-700;
+}
+  
+.container{
+    max-width: $kz-layout-content-max-width;
+    margin: 0 auto;
+    padding: $kz-spacing-sm;
+}
+  
+p{
+    font-weight: $kz-typography-paragraph-body-font-weight;
+    font-size: $kz-typography-paragraph-body-font-size;
+    line-height: $kz-typography-paragraph-body-line-height;
+    letter-spacing: $kz-typography-paragraph-body-letter-spacing;
+    font-family: $kz-typography-paragraph-body-font-family;
+    color: $kz-color-cluny-700;
+
+    header & {
+        color: $kz-color-white;
+    }
+
+    &.lead{
+        font-weight: $kz-typography-paragraph-intro-lede-font-weight;
+        font-size: $kz-typography-paragraph-intro-lede-font-size;
+        line-height: $kz-typography-paragraph-intro-lede-line-height;
+        letter-spacing: $kz-typography-paragraph-intro-lede-letter-spacing;
+    }
+}

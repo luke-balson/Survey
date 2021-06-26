@@ -11,7 +11,7 @@ const SurveySingle = () => {
                 rate={questions.survey_result_detail.response_rate} 
                 />
             {questions.survey_result_detail.themes.map((theme, i) => (
-                <SurveyTheme theme={theme} />                
+                <SurveyTheme theme={theme} key={i} />                
             ))}
         </div>
     )
