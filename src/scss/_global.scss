@@ -33,3 +33,59 @@ p{
         letter-spacing: $kz-typography-paragraph-intro-lede-letter-spacing;
     }
 }
+
+h1{ 
+    font-weight: $kz-typography-heading-1-font-weight;
+    font-size: $kz-typography-heading-1-font-size;
+    line-height: $kz-typography-heading-1-line-height;
+    letter-spacing: $kz-typography-heading-1-letter-spacing;
+    font-family: $kz-typography-heading-1-font-family;
+    
+}
+
+h2{ 
+    font-weight: $kz-typography-heading-2-font-weight;
+    font-size: $kz-typography-heading-2-font-size;
+    line-height: $kz-typography-heading-2-line-height;
+    letter-spacing: $kz-typography-heading-2-letter-spacing;
+    font-family: $kz-typography-heading-2-font-family;
+    
+ }
+
+h3{ 
+    font-weight: $kz-typography-heading-3-font-weight;
+    font-size: $kz-typography-heading-3-font-size;
+    line-height: $kz-typography-heading-3-line-height;
+    letter-spacing: $kz-typography-heading-3-letter-spacing;
+    font-family: $kz-typography-heading-3-font-family;
+    
+ }
+
+h4{ 
+    font-weight: $kz-typography-heading-4-font-weight;
+    font-size: $kz-typography-heading-4-font-size;
+    line-height: $kz-typography-heading-4-line-height;
+    letter-spacing: $kz-typography-heading-4-letter-spacing;
+    font-family: $kz-typography-heading-4-font-family;
+     
+}
+
+h5{ 
+    font-weight: $kz-typography-heading-5-font-weight;
+    font-size: $kz-typography-heading-5-font-size;
+    line-height: $kz-typography-heading-5-line-height;
+    letter-spacing: $kz-typography-heading-5-letter-spacing;
+    font-family: $kz-typography-heading-5-font-family;
+    color: $kz-color-cluny-700;
+    
+ }
+
+h6{ 
+    font-weight: $kz-typography-heading-6-font-weight;
+    font-size: $kz-typography-heading-6-font-size;
+    line-height: $kz-typography-heading-6-line-height;
+    letter-spacing: $kz-typography-heading-6-letter-spacing;
+    font-family: $kz-typography-paragraph-intro-lede-font-family;
+    color: $kz-color-cluny-700;
+     
+}

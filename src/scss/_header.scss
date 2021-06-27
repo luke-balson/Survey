@@ -17,10 +17,7 @@ header {
     }
 
     .logo {
-        background: url(./../assets/CA-logo-rev.png) no-repeat left center;
-        display: block;
-        background-size: contain;
-        width: auto;
         height: $kz-layout-mobile-actions-drawer-height;
+        margin-bottom: $kz-spacing-md;
     }
 }
