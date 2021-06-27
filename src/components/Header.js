@@ -6,7 +6,7 @@ const Header = ({pageTitle, count, rate, submitted}) => {
     <header>
       <div className="header-intro">
         <img  className="logo" src={logo} alt="Culture Amp" />
-        <h1>{pageTitle}</h1>
+        <h2>{pageTitle}</h2>
       </div>
       { rate &&
         <div className="header-summary">
@@ -14,7 +14,6 @@ const Header = ({pageTitle, count, rate, submitted}) => {
           <p>Participant Count: {count}  |  Response Count: {submitted} </p>
         </div>
       }
-
     </header>
   )
 }
