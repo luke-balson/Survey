@@ -1,0 +1,55 @@
+.survey-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__title{
+        color: $kz-color-white;
+        margin-bottom: $kz-spacing-md;
+    }
+
+    &__item{
+        width: 30%;
+        background-color: $kz-color-white;
+        border-radius: $kz-spacing-xs;
+        margin-bottom: $kz-spacing-md;
+        padding: $kz-spacing-md;
+        text-decoration: none;
+
+        &:active, &:hover{
+            color: $kz-color-cluny-600;
+
+        }
+
+        &:nth-child(odd){
+            margin-right: $kz-spacing-md;
+        }
+        
+        @media (max-width: $kz-layout-breakpoints-large) {
+            width: 40%;
+        }
+        
+        @media (max-width: $kz-layout-breakpoints-medium) {
+            width: 100%;
+            margin-right: 0!important;
+        }
+
+        &-summary{
+            padding: $kz-spacing-md 0 $kz-spacing-sm;
+            display: flex;
+            flex-direction: row;
+            
+            p {
+                width: 50%;
+                &:last-child{
+                    text-align: center;
+                    span {
+                        display: block;
+                        font-size: $kz-typography-heading-2-font-size;
+                    }
+                }
+            }
+
+        }
+    }
+}

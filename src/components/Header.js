@@ -5,7 +5,7 @@ const Header = ({pageTitle, count, rate, submitted}) => {
   return (
     <header>
       <div className="header-intro">
-        <img  className="logo" src={logo} alt="Culture Amp" />
+        <a href= '/'><img  className="logo" src={logo} alt="Culture Amp" /></a>
         <h2>{pageTitle}</h2>
       </div>
       { rate &&

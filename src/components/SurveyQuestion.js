@@ -7,7 +7,7 @@ const SurveyQuestion = ({question}) => {
             <div className="theme-body__question-content">
                 <p className="col">{question.description}</p>
                 <p className="col">4.5</p>
-                <span className="col accordion-link">breakdown<img src={icon} alt="show/hide" /></span>
+                <span className="col accordion-link"><span>breakdown</span><img src={icon} alt="show/hide" /></span>
             </div>
             <div className="theme-body__question-breakdown">
                 {/* This would be a breakdown component with the detailed graph/information */}

@@ -33,15 +33,23 @@
 
 
             .col{
-                width: 10%;
+                width: 15%;
                 text-align: center;
 
                 &:first-child {
-                    width: 80%;
+                    width: 70%;
                     text-align: left;
+                    padding-right: $kz-spacing-md;
                 }
                 &:last-child{
                     text-align: right;
+                    @media (max-width: $kz-layout-breakpoints-medium) {
+                        align-items: flex-start;
+
+                        span {
+                            display: none;
+                        }
+                    }
                 }
             }
 

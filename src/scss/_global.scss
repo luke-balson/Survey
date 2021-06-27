@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: $kz-color-wisteria-700;
+    color: $kz-color-cluny-700;
 }
   
 .container{
@@ -49,7 +50,6 @@ h2{
     line-height: $kz-typography-heading-2-line-height;
     letter-spacing: $kz-typography-heading-2-letter-spacing;
     font-family: $kz-typography-heading-2-font-family;
-    
  }
 
 h3{ 
@@ -58,7 +58,6 @@ h3{
     line-height: $kz-typography-heading-3-line-height;
     letter-spacing: $kz-typography-heading-3-letter-spacing;
     font-family: $kz-typography-heading-3-font-family;
-    
  }
 
 h4{ 
@@ -67,7 +66,6 @@ h4{
     line-height: $kz-typography-heading-4-line-height;
     letter-spacing: $kz-typography-heading-4-letter-spacing;
     font-family: $kz-typography-heading-4-font-family;
-     
 }
 
 h5{ 
@@ -76,7 +74,6 @@ h5{
     line-height: $kz-typography-heading-5-line-height;
     letter-spacing: $kz-typography-heading-5-letter-spacing;
     font-family: $kz-typography-heading-5-font-family;
-    color: $kz-color-cluny-700;
     
  }
 
@@ -86,6 +83,5 @@ h6{
     line-height: $kz-typography-heading-6-line-height;
     letter-spacing: $kz-typography-heading-6-letter-spacing;
     font-family: $kz-typography-paragraph-intro-lede-font-family;
-    color: $kz-color-cluny-700;
      
 }
